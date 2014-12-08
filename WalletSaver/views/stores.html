@@ -1,0 +1,11 @@
+<div data-role="view" data-title="Stores" data-layout="main" data-model="APP.models.stores">
+    <ul data-role="listview" data-style="inset" data-template="storesTemplate" data-bind="source: ds"></ul>
+</div>
+<script type="text/x-kendo-template" id="storesTemplate">
+        <a data-bind="click: openlink">
+        <div class="storeImage"><img src="#: image_url #" /></div>
+        <div class="storeName">#: name #</div>
+        <div class="storeAddressLine1">#: addressline1 #</div>
+        <div class="storeAddressLine2">#: addressline2 #</div>
+     </a>
+</script>

@@ -1,12 +1,12 @@
 {
-  "ProjectName": "sample-kendoui-core-widgets",
+  "ProjectName": "WalletSaver",
   "IsRunnable": "true",
   "ProjectGuid": "3960f3dd-611c-4476-b461-8ace958f4be7",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.samplekendouicorewidgets",
-  "DisplayName": "sample-kendoui-core-widgets",
+  "AppIdentifier": "com.FIU.WalletSaver",
+  "DisplayName": "WalletSaver",
   "Author": "",
-  "Description": "",
+  "Description": "WalletSaver",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -21,7 +21,6 @@
   "WP8PublisherID": "{5e9a20dc-9a6e-4951-b773-084f56faef48}",
   "WP8ProductID": "{0613d0fb-0d00-4726-87f3-061cd7e44eab}",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.5.0",
   "CorePlugins": [
     "com.telerik.mobiletesting",
     "com.telerik.plugin.eqatecanalytics",
@@ -38,6 +37,7 @@
     "org.apache.cordova.geolocation",
     "org.apache.cordova.globalization",
     "org.apache.cordova.inappbrowser",
+    "org.apache.cordova.media",
     "org.apache.cordova.media-capture",
     "org.apache.cordova.network-information",
     "org.apache.cordova.splashscreen",
@@ -75,5 +75,7 @@
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
   ],
-  "Framework": "Cordova"
+  "Framework": "Cordova",
+  "CordovaPluginVariables": {},
+  "FrameworkVersion": "3.5.0"
 }

@@ -1,0 +1,11 @@
+<div data-role="view" data-title="Coupons" data-layout="main" data-model="APP.models.coupons">
+    <ul data-role="listview" data-style="inset" data-template="couponsTemplate" data-bind="source: ds"></ul>
+</div>
+<script type="text/x-kendo-template" id="couponsTemplate">
+        <!--<a data-bind="click: openlink"> -->
+        <div class="storeImage"><img src="#: image_url #" /></div>
+        <div class="storeName">#: store #</div>
+        <div class="couponName">#: name #</div>
+        <div class="savingsName">#: savings #</div>
+        </a>
+</script>

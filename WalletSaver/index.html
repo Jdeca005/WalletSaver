@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WalletSaver</title>
+    <meta charset="utf-8" />
+    
+    <!-- Styles -->
+    <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="cordova.js"></script>
+    <script src="kendo/js/jquery.min.js"></script>
+    <script src="kendo/js/kendo.mobile.min.js"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+    <script src="https://bs-static.cdn.telerik.com/1.2.5/everlive.all.min.js"></script>
+    
+    <script src="scripts/app.js"></script>
+    <script src="scripts/maps.js"></script>
+    <!--<script src="scripts/list.js"></script>-->
+   
+</head>
+<body>
+     <!-- Main Layout -->
+    <div data-role="layout" data-id="main">
+        <div data-role="header">
+            <div data-role="navbar">
+                <span data-role="view-title"></span>
+            </div>
+        </div>
+
+        <!-- Application views will be rendered here -->
+        
+        <div data-role="footer">
+            <div data-role="tabstrip">
+                <a href="views/home.html" data-icon="home">Home</a>   
+                <a href="views/list.html" data-icon="bookmarks">List</a> 
+                <a href="views/stores.html" data-icon="cart">Stores</a> 
+                <a href="views/coupons.html" data-icon="organize">Coupons</a> 
+                <a href="views/maps.html" data-icon="globe">Maps</a>                
+                <a href="views/settings.html" data-icon="settings">Settings</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
